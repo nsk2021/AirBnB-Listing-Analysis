@@ -53,7 +53,7 @@ This project primarily uses the following Python libraries:
 * `numpy` for numerical operations.
 * `matplotlib.pyplot` for creating visualizations.
 
-The analysis is performed within a Google Colab environment (e.g., Google Colab, Jupyter Lab/Notebook).
+The analysis is performed within a Google Colab environment.
 
 ## Usage
 
@@ -61,4 +61,4 @@ The analysis is performed within a Google Colab environment (e.g., Google Colab,
 2.  Obtain the `Listings.csv` dataset.
 3.  Place the `AirBnB_Listing_Analysis.ipynb` notebook and the `Listings.csv` file in an appropriate directory structure.
 4.  **Important:** Update the file path in the notebook cell where the CSV is loaded (`pd.read_csv(...)`) to point correctly to your `Listings.csv` file location. If using Google Colab, you might need to upload the CSV or mount your Google Drive as shown in the initial cells.
-5.  Run the cells sequentially in the Jupyter Notebook to perform the analysis and generate visualizations.
+5.  Run the cells sequentially in the Google Colab Notebook to perform the analysis and generate visualizations.
